@@ -1,22 +1,33 @@
-# Node.js Express with MongoDB Integration
+# 🔐 Node.js + Express API with MongoDB & JWT Authentication
 
-This is a starter project for building a RESTful API using **Node.js**, **Express.js**, and **MongoDB** (via **Mongoose**). It demonstrates how to connect to a MongoDB database, create models, and perform CRUD operations.
+This is the backend API for a full-stack Task Manager application. It is built with **Node.js**, **Express.js**, and **MongoDB** using **Mongoose**. The API features **user authentication using JWT**, and supports full **CRUD operations for tasks**.
 
-## Features
+---
 
-- RESTful API built with Express.js
-- MongoDB integration using Mongoose
-- Basic CRUD operations
-- Environment variable configuration
-- Error handling and logging
+## 🚀 Key Features
 
-## Prerequisites
+- User Registration & Login with **JWT-based authentication**
+- Protected routes using **JWT middleware**
+- Task CRUD operations (Create, Read, Update, Delete)
+- MongoDB integration with Mongoose
+- Modular Express routes and controllers
+- Environment variable management with `.env`
 
-- [Node.js](https://nodejs.org/) (v14 or newer recommended)
-- [MongoDB](https://www.mongodb.com/) (local or Atlas)
+---
 
-## Getting Started
+## ⚙️ Tech Stack
 
-### Clone the repository
+| Tool           | Purpose                            |
+|----------------|-------------------------------------|
+| Node.js        | JavaScript runtime environment      |
+| Express.js     | Web framework for API routing       |
+| MongoDB        | NoSQL database                      |
+| Mongoose       | ODM for MongoDB                     |
+| JSON Web Token | Secure token-based authentication   |
+| dotenv         | Manage environment variables        |
 
+---
+
+## 📂 clone
 https://github.com/iswarya-git/ciel-server.git
+
